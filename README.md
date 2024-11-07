@@ -1,14 +1,19 @@
-# collection framework
+# library java.util
+
+## what is java.util
+- 자바에서 유용한 데이터 구조와 알고리즘을 제공하는 패키지
+- 다양한 컬렉션 프레임워크를 포함
+- 날짜와 시간 처리, 랜덤 값 생성, 소트 및 검색 등 다양한 유틸리티 기능을 제공
 
 ***
 
-# what is collection framework
+## what is collection framework
 - 데이터를 저장하고 처리하는 데 필요한 다양한 클래스를 제공하는 라이브러리
 - List, Set, Queue, Map 인터페이스와 이를 구현한 다양한 클래스들로 구성
 
 ---
 
-# 컬렉션 프레임워크의 주요 특징
+## 컬렉션 프레임워크의 주요 특징
 - 다양한 자료구조 제공
     - 리스트, 세트, 큐, 맵 등 다양한 자료구조를 표준화된 방식으로 제공하여 필요한 자료구조를 쉽게 사용할 수 있다.
 - 동적 크기 조정
@@ -451,7 +456,7 @@ Comparator<? super T> comparator = spliterator.getComparator();
 
 ***
 
-## Collections 클래스
+## Collections 유틸리티 클래스
 - 컬렉션을 다루는 다양한 유틸리티 메서드를 제공
 - 예를 들어, 컬렉션의 정렬, 검색, 동기화, 최소값/최대값 구하기 등의 작업을 할 수 있다.
 
@@ -553,7 +558,7 @@ System.out.println("하나의 요소를 가진 리스트: " + singletonList);  /
 
 ***
 
-## Arrays 클래스
+## Arrays 유틸리티 클래스
 - 배열을 다루는 유틸리티 클래스
 - 배열을 리스트로 변환하거나 배열을 정렬, 검색, 복사, 비교 등의 작업을 할 수 있다.
 - 모든 메서드는 정적 메서드로 제공
@@ -605,5 +610,33 @@ System.out.println("배열 출력: " + Arrays.toString(arr2));  // [1, 2, 3, 5, 
 List<Integer> list = Arrays.asList(1, 2, 3, 5, 8);
 System.out.println("배열을 List로 변환: " + list);  // [1, 2, 3, 5, 8]
 ```
+
+***
+
+## 날짜와 시간
+
+***
+
+## 랜덤 숫자 생성
+
+***
+
+## 타임 아웃과 스레드 작업
+
+***
+
+## Properties 클래스
+
+***
+
+## 스택과 큐
+
+***
+
+## WeakHashMap 클래스
+
+***
+
+## Comparator 클래스
 
 ***
